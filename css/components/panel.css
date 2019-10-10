@@ -1,0 +1,14 @@
+.panel {
+  width: 220px;
+  height: 250px;
+  text-align: center;
+}
+
+.panel > hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 2em 0;
+    padding: 0;
+}

@@ -1,0 +1,57 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url(components/banner.css);
+@import url(components/panel.css);
+@import url(components/footer.css);
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  font-family: 'Mansalva', cursive;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 20px 0 20px 0;
+  font-size: 30px;
+}
+
+/* Custom design below! */
+
+.panels {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  height: 600px;
+}
